@@ -14,5 +14,5 @@ type Query {
 
 # Root
 type Mutation {
-	createEmployee(firstName: String!, middleName: String, lastName: String!): Employee!
+	createEmployee(firstName: String, middleName: String, lastName: String): Employee!
 }
